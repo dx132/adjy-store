@@ -1,0 +1,60 @@
+/**
+ * compare.css
+ * ADJY Store - Compare Styles
+ */
+
+/* ============================================
+   COMPARE SECTION
+   ============================================ */
+.compare-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--card-bg);
+    box-shadow: 0 -4px 12px rgba(0,0,0,0.15);
+    padding: 1rem 2rem;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    transition: background-color var(--transition);
+}
+
+.compare-bar.active {
+    display: flex;
+}
+
+.compare-items {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.compare-thumb {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.compare-thumb-wrapper {
+    position: relative;
+}
+
+.remove-compare {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: var(--danger);
+    color: white;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,13 @@
+/**
+ * recommendations.css
+ * ADJY Store - Recommendations Styles
+ */
+
+/* ============================================
+   RECOMMENDATIONS & HISTORY
+   ============================================ */
+.recommendations {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--border);
+}
