@@ -132,7 +132,7 @@ function processCheckout() {
     
     setTimeout(function() {
         hideLoading();
-        window.open('https://wa.me/6283819250877' + wa + '?text=' + msg, '_blank');
+        window.open('https://wa.me/' + wa + '?text=' + msg, '_blank');
         showNotification('Pesanan berhasil dibuat! 🎉');
         showSection('home');
         
