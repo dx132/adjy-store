@@ -121,7 +121,7 @@ let compareList = JSON.parse(localStorage.getItem('adjy_compare')) || [];
 let orders = JSON.parse(localStorage.getItem('adjy_orders')) || [];
 let storeSettings = JSON.parse(localStorage.getItem('adjy_settings')) || {
     storeName: 'ADJY Store',
-    whatsapp: '62895708753070'
+    whatsapp: '6283819250877'
 };
 
 let currentFilter = 'all';
