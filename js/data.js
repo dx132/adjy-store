@@ -134,7 +134,7 @@ let products = [
         sold: 156,
         rating: 4.3,
         reviews: 89,
-        images: ["../assets/images/mu.webp"],
+        images: ["/assets/images/mu.webp"],
         description: "Tumbler stainless steel insulated, menjaga suhu minuman hingga 12 jam.",
         specs: {"Material": "304 Stainless", "Kapasitas": "500ml", "Insulated": "Double wall", "Warna": "Hitam/Putih"},
         reviews_list: []
