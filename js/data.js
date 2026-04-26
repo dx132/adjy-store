@@ -85,20 +85,6 @@ let products = [
     },
     {
         id: 6,
-        name: "Powerbank 20000mAh Fast Charge",
-        price: 185000,
-        category: "elektronik",
-        stock: 50,
-        sold: 234,
-        rating: 4.4,
-        reviews: 312,
-        images: ["https://images.unsplash.com/photo-1609592424308-6463c69d3484?w=500"],
-        description: "Powerbank kapasitas besar dengan fast charging 22.5W dan 2 output USB.",
-        specs: {"Kapasitas": "20000mAh", "Input": "USB-C PD", "Output": "2x USB-A, 1x USB-C", "Fast Charge": "22.5W"},
-        reviews_list: []
-    },
-    {
-        id: 7,
         name: "Sneakers Sport Casual",
         price: 399000,
         category: "fashion",
@@ -112,7 +98,7 @@ let products = [
         reviews_list: []
     },
     {
-        id: 8,
+        id: 7,
         name: "Botol Minum Tumbler Premium",
         price: 125000,
         category: "rumah",
@@ -125,20 +111,7 @@ let products = [
         specs: {"Material": "304 Stainless", "Kapasitas": "500ml", "Insulated": "Double wall", "Warna": "Hitam/Putih"},
         reviews_list: []
     },
-    {
-        id: 9,
-        name: "kaos emyu",
-        price: 125000,
-        category: "fashion",
-        stock: 100,
-        sold: 156,
-        rating: 4.3,
-        reviews: 89,
-        images: ["/assets/images/mu.webp"],
-        description: "Tumbler stainless steel insulated, menjaga suhu minuman hingga 12 jam.",
-        specs: {"Material": "304 Stainless", "Kapasitas": "500ml", "Insulated": "Double wall", "Warna": "Hitam/Putih"},
-        reviews_list: []
-    }
+    
 ];
 
 let cart = JSON.parse(localStorage.getItem('adjy_cart')) || [];
