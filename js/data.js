@@ -113,14 +113,14 @@ let products = [
     },
     {
         id: 8,
-        name: "Kaos King MU",
+        name: "Pohon Idaman",
         price: 100000,
         category: "olahraga",
         stock: 100,
         sold: 156,
         rating: 5.0,
         reviews: 999,
-        images: ["../assets/images/mu.jpeg"],
+        images: ["../assets/images/pohon idaman.jpeg"],
         description: "kaos dengan gambar logo king yang paling bersinar dalam sepanjang sejarah sepakbola eropa",
         specs: {"Bahan": "Katun", "Size": "S,M,L,XL", "Warna": "Merah"},
         reviews_list: []
