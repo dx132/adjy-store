@@ -122,7 +122,7 @@ let products = [
         reviews: 999,
         images: ["assets/images/pohon-idaman.jpeg"],
         description: "jasa acting dan maskot pohon idaman by alfanz",
-        specs: {"Bahan": "Katun", "Size": "S,M,L,XL", "Warna": "Merah"},
+        specs: {"Umur": "18 tahun"},
         reviews_list: []
     },
     
