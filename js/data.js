@@ -117,7 +117,7 @@ let products = [
         price: 100000,
         category: "jasa",
         stock: 100,
-        sold: 1,
+        sold: 10,
         rating: 5.0,
         reviews: 999,
         images: ["assets/images/pohon-idaman.jpeg"],
